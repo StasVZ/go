@@ -1,0 +1,72 @@
+
+
+.cite-block {
+  width: 1180px;
+  margin: 0;
+}
+
+.about__cite-text {
+  display:block;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 114%;
+  text-transform: uppercase;
+  color: #fff;
+  padding-left: 40px;
+  margin-bottom: 40px;
+}
+
+.about__cite-text{
+  background-image: url(../img/quotes.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 20px 20px;
+}
+
+.cite-text-two{
+  display: block;
+  background-image: url(../img/quotes-two.png);
+  background-repeat: no-repeat;
+  background-position: right 100px bottom 25px;
+  background-size: 20px 20px;
+}
+
+.about__photo-author {
+  display: inline-block;
+  margin-left: 120px;
+  margin-right: 20px;
+}
+
+.about__cite-author {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #fff;
+}
+
+.about__title {
+  margin-bottom: 40px;
+}
+
+.about__wrapper {
+  display:inline-block;
+  max-width: 500px;
+}
+
+.about__image{
+  display: inline-block;
+  margin-right: 80px;
+}
+
+.about__blockquote {
+  padding-left: 150px;
+}
+
+.about__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #fff;
+  margin-bottom: 60px;
+}

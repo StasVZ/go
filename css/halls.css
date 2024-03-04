@@ -1,0 +1,57 @@
+
+.halls__list {
+  padding: 0;
+}
+
+.halls__item{
+  position: relative;
+  list-style-type: none;
+  width: 1180px;
+  height: 710px;
+  
+}
+
+.halls__item:not(:last-child) {
+  margin-bottom: 60px;
+}
+
+.halls__item:nth-child(1) {
+  background-image: url(../img/80s.jpg);
+  background-size: 1180px 710px;
+}
+
+.halls__item:nth-child(2) {
+  background-image: url(../img/starwar.jpg);
+  background-size: 1180px 710px;
+}
+
+.halls__item:nth-child(3) {
+  background-image: url(../img/wild-west.jpg);
+  background-size: 1180px 710px;
+}
+
+.halls__item:nth-child(4) {
+  background-image: url(../img/neon.jpg);
+  background-size: 1180px 710px;
+}
+
+.halls__title {
+  margin-bottom: 60px;
+}
+
+.halls__link {
+  position: absolute;
+  top:315px;
+  right: 366px;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 114%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  max-width: 448px;
+  padding-left: auto;
+  padding-right: auto;
+}
