@@ -1,7 +1,8 @@
-.vr-block {
+.vr-block__wrapper {
   position: relative;
   width: 1180px;
-  height: 823px;
+  height: 833px;
+
 }
 
 .vr-block__text{
@@ -10,7 +11,8 @@
   line-height: 179%;
   color: #fff;
   margin: 0;
-  padding-left: 230px;
+  padding-left: 100px;
+  margin-bottom: 30px;
 }
 
 .vr-block__title {
@@ -22,7 +24,7 @@
   margin: 0;
 }
 
-.vr-block::before{
+.vr-block__wrapper::before{
   content: "";
   position: absolute;
   width: 100%;
@@ -30,6 +32,59 @@
   background-image: url(../img/game-over.svg);
   background-repeat: no-repeat;
   background-position: bottom 0 right 0;
-  background-size:  675px 762px;
+}
 
+.vr-block__link {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 115%;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 25px 69px;
+  border-radius: 10px;
+  width: 374px;
+  height: 80px;
+  background: #6c0287;
+}
+
+.vr-block__reserv {
+  display: flex;
+  flex-direction: column;
+  row-gap: 150px;
+}
+
+.vr-block__violet {
+  display: flex;
+  width: 530px;
+  gap: 40px;
+  align-items: end;
+}
+
+.violet-number{
+  display: block;
+  font-weight: 900;
+  font-size: 100px;
+  color: #cd06ff;
+}
+
+.violet-new {
+  display: block;
+  font-weight: 900;
+  font-size: 75px;
+  font-variant: all-small-caps;
+  color: #cd06ff;
+}
+
+.violet-text {
+font-weight: 400;
+font-size: 30px;
+text-align: center;
+color: #fff;
+max-width: min-content;
+}
+
+.vr-block__down {
+  position: absolute;
+  right: 545px;
+  bottom: 150px;
 }

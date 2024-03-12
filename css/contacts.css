@@ -1,5 +1,4 @@
 
-
 .contacts__link {
   color: #fff;
   text-decoration: none;
@@ -27,7 +26,9 @@
   vertical-align: middle;
 }
 
-
+.footer__img {
+  float: right;
+}
 
 
 
@@ -57,3 +58,11 @@
   margin-right: 26px;
 }
 
+.contacts__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-footer {
+  background: linear-gradient(180deg, #1b1a1b 0%, #370a37 100%);
+}

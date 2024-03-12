@@ -1,0 +1,57 @@
+.rest__title {
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.rest__item {
+  position: relative;
+  list-style-type: none;
+  background-size: contain;
+  width: 380px;
+  height: 228px;
+}
+
+.rest__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 20px;
+}
+
+
+.rest__item:nth-child(1){
+  background-image: url(../img/vr.jpg);
+}
+
+
+.rest__item:nth-child(2) {
+  background-image: url(../img/audio.jpg);
+}
+
+.rest__item:nth-child(3){
+  background-image: url(../img/micro.jpg);
+}
+
+.rest__item:nth-child(4) {
+  background-image: url(../img/game.jpg);
+}
+
+.rest__item:nth-child(5) {
+  background-image: url(../img/netflix.jpg);
+}
+
+.rest__item:nth-child(6) {
+  background-image: url(../img/sony.jpg);
+}
+
+.rest__link {
+  position: absolute;
+  top: 166px;
+  right: 40px;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  color: #fff;
+  text-decoration: none;
+  width: 300px;
+}

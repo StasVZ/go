@@ -1,7 +1,84 @@
+.reserv {
+  background: #440f51;
+}
+
+.reserv__halls {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reserv__fieldset:not(:last-child) {
+  margin-bottom: 60px;
+}
+
+.reserv__fieldset:last-child{
+  margin-bottom: 40px;
+}
+
 .reserv__date {
   font-size: 16px;
 }
 
 .reserv__title {
   margin-bottom: 50px;
+}
+
+.reserv__subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 117%;
+  text-align: center;
+  color: #fff;
+}
+
+.entertainment {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.entertainment__fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+.entertainment__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 117%;
+  color: #fff;
+}
+
+.entertainment__console:not(:last-child),
+.entertainment__boar-games:not(:last-child),
+.entertainment__additionally:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.entertainment__console,
+.entertainment__boar-games,
+.entertainment__additionally{
+font-weight: 400;
+font-size: 22px;
+color: #fff;
+}
+
+.reserv__button {
+  display: block;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 127%;
+  text-transform: uppercase;
+  color: #6c0287;
+  border-radius: 10px;
+  width: 300px;
+  height: 60px;
+  background: #fff;
+  margin-left: auto;
+  margin-right: 100px;
+}
+
+
+.reserv__dates {
+  display: flex;
+  flex-wrap: wrap;
 }
