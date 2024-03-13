@@ -1,3 +1,7 @@
+fieldset {
+  border: none;
+}
+
 .reserv {
   background: #440f51;
 }
@@ -29,6 +33,7 @@
   line-height: 117%;
   text-align: center;
   color: #fff;
+  margin-bottom: 40px;
 }
 
 .entertainment {
@@ -46,6 +51,7 @@
   font-size: 24px;
   line-height: 117%;
   color: #fff;
+  margin-bottom: 23px;
 }
 
 .entertainment__console:not(:last-child),
@@ -81,4 +87,62 @@ color: #fff;
 .reserv__dates {
   display: flex;
   flex-wrap: wrap;
+  gap: 15px 50px;
+  justify-content: center;
+}
+
+.reserv__hall-radio {
+  display: none;
+}
+
+.reserv__hall {
+  border-radius: 8px;
+  width: 250px;
+  height: 55px;
+  background: #fff;
+  font-weight: 700;
+  font-size: 30px;  
+  line-height: 133%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+  padding: 8px 15px;
+}
+
+.reserv__date-time{
+  width: 134px;
+  height: 52px;
+  background: #fff;
+  
+}
+
+.reserv__date-input {
+  width: 300px;
+  height: 52px;
+  background: #fff;
+}
+
+.entertainment__console-radio{
+  width: 25px;
+  height: 25px;
+  margin-right: 12px;
+  border-radius: 50%;
+}
+
+.entertainment__boar-games-radio,
+.entertainment__additionally-checkbox {
+  width: 25px;
+  height: 25px;
+  margin-right: 12px;
+}
+
+.reserv__wrapper{
+  display: flex;
+  width: 300px;
+  gap:32px;
+  padding-top: 1em;
+}
+
+.reserv__date-human {
+  padding-top: 1em;
 }

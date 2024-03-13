@@ -187,25 +187,31 @@
             
               <fieldset class="reserv__fieldset reserv__dates">
                 <legend class="reserv__subtitle">Выбери дату и время</legend>
-                <label class="reserv__date"> Дата*
-                  <input class="reserv__date-input" type="date" name="date" required>
-                </label>
-                <label class="reserv__date"> Время*
-                  <input class="reserv__date-input" type="time" name="time" required>
-                </label>
-                <label class="reserv__date"> имя
+                <div class="reserv__wrapper">
+                  <label class="reserv__date"> 
+                    <input class="reserv__date-time" type="text" name="date" value="Дата" required>
+                  </label>
+                  <label class="reserv__date">
+                    <input class="reserv__date-time" type="text" name="time" value="Время" required>
+                  </label>
+                </div>
+                <label class="reserv__date"> 
+                  <p>Имя</p>
                   <input class="reserv__date-input" type="text" name="name" required>
                 </label>
-                <label class="reserv__date"> телефон
+                <label class="reserv__date"> 
+                  <p>Телефон</p>
                   <input class="reserv__date-input" type="number" name="tel" required>
                 </label>
-                  <label class="reserv__date"> сколько человек
-                <input class="reserv__date-input" type="number" name="number" required>
+                  <label class="reserv__date-human">
+                <input class="reserv__date-input" type="text" name="number" required value="Сколько человек">
                   </label>
-                <label class="reserv__date"> фамилия
+                <label class="reserv__date">
+                  <p>Фамилия</p>
                   <input class="reserv__date-input" type="text" name=" surname" required>
                 </label>
-                <label class="reserv__date"> e-mail
+                <label class="reserv__date"> 
+                  <p>Е-mail</p>
                   <input class="reserv__date-input" type="email" name=" email" required>
                 </label>
 
