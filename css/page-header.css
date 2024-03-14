@@ -17,6 +17,28 @@
   height: 55px;
 }
 
+.page-header__button:hover{
+  border: 3px solid #6c0287;
+  border-radius: 10px;
+  width: 280px;
+  height: 55px;
+  background: #6c0287;
+}
+.page-header__button:focus{
+  border-radius: 10px;
+  width: 280px;
+  height: 55px;
+  background: #6c0287;
+}
+.page-header__button:active{
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 280px;
+  height: 55px;
+  background: #640aa3;
+}
+
+
 .page-header__list {
   display: flex;
   column-gap: 40px;

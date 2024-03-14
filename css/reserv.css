@@ -83,6 +83,31 @@ color: #fff;
   margin-right: 100px;
 }
 
+.reserv__button:hover{
+  border: 3px solid #6c0287;
+border-radius: 10px;
+width: 300px;
+height: 60px;
+background: #eadeed;
+}
+
+.reserv__button:focus{
+  border: 3px solid #6c0287;
+border-radius: 10px;
+width: 300px;
+height: 60px;
+background: #fff;
+
+}
+.reserv__button:active{
+  border-radius: 10px;
+width: 300px;
+height: 60px;
+background: #eadeed;
+
+}
+
+
 
 .reserv__dates {
   display: flex;
@@ -109,6 +134,29 @@ color: #fff;
   padding: 8px 15px;
 }
 
+.reserv__hall:hover{
+  border: 3px solid #640aa3;
+  border-radius: 8px;
+  width: 250px;
+  height: 55px;
+  background: #eadeed;
+}
+
+.reserv__hall:focus{
+  border: 3px solid #640aa3;
+  border-radius: 8px;
+  width: 250px;
+  height: 55px;
+  background: #fff;
+}
+.reserv__hall:active{
+  border: 3px solid #fff;
+  border-radius: 8px;
+  width: 250px;
+  height: 55px;
+  background: #6c0287;
+}
+
 .reserv__date-time{
   width: 134px;
   height: 52px;
@@ -120,6 +168,12 @@ color: #fff;
   width: 300px;
   height: 52px;
   background: #fff;
+}
+
+.reserv__date-input:focus , reserv__date-time:focus{
+  border: 2px solid #cd06ff;
+  width: 300px;
+  height: 52px;
 }
 
 .entertainment__console-radio{
@@ -134,6 +188,13 @@ color: #fff;
   width: 25px;
   height: 25px;
   margin-right: 12px;
+}
+
+.entertainment__console-radio:focus,
+entertainment__boar-games-radio:focus {
+  border: 1px solid #cd06ff;
+  width: 33px;
+  height: 33px;
 }
 
 .reserv__wrapper{

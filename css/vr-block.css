@@ -45,6 +45,21 @@
   width: 374px;
   height: 80px;
   background: #6c0287;
+  z-index: 1;
+}
+
+.vr-block__link:hover,.vr-block__link:focus{
+  border-radius: 10px;
+  width: 374px;
+  height: 80px;
+  background: #840aa3;
+}
+
+.vr-block__link:active{
+  border-radius: 10px;
+  width: 374px;
+  height: 80px;
+  background: #640aa3;
 }
 
 .vr-block__reserv {
@@ -87,4 +102,19 @@ max-width: min-content;
   position: absolute;
   right: 545px;
   bottom: 150px;
+  cursor: pointer;
+}
+
+.vr-block__down:hover {
+  border-radius: 100%;
+  fill:white;
+  stroke-width: 1px;
+  stroke: #6c0287;
+}
+
+.vr-block__down:active {
+  border-radius: 100%;
+  fill:#cd06ff;
+  stroke-width: 1px;
+  stroke: #fff 
 }
