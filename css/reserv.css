@@ -83,28 +83,30 @@ color: #fff;
   margin-right: 100px;
 }
 
-.reserv__button:hover{
-  border: 3px solid #6c0287;
-border-radius: 10px;
-width: 300px;
-height: 60px;
-background: #eadeed;
+.reserv__button {
+  transition-duration: 1.5s;
+  transition-property:background,border;
 }
 
+.reserv__button:hover{
+  border: 3px solid #6c0287;
+  border-radius: 10px;
+  width: 300px;
+  height: 60px;
+  background: #eadeed;
+}
 .reserv__button:focus{
   border: 3px solid #6c0287;
-border-radius: 10px;
-width: 300px;
-height: 60px;
-background: #fff;
-
+  border-radius: 10px;
+  width: 300px;
+  height: 60px;
+  background: #fff;
 }
 .reserv__button:active{
   border-radius: 10px;
-width: 300px;
-height: 60px;
-background: #eadeed;
-
+  width: 300px;
+  height: 60px;
+  background: #eadeed;
 }
 
 
@@ -132,6 +134,8 @@ background: #eadeed;
   text-align: center;
   color: #000;
   padding: 8px 15px;
+  transition-duration: 1.5s;
+  transition-property:background,border;
 }
 
 .reserv__hall:hover{
@@ -168,6 +172,8 @@ background: #eadeed;
   width: 300px;
   height: 52px;
   background: #fff;
+  transition-duration: 1.5s;
+  transition-property:border;
 }
 
 .reserv__date-input:focus , reserv__date-time:focus{
@@ -188,7 +194,11 @@ background: #eadeed;
   width: 25px;
   height: 25px;
   margin-right: 12px;
+  transition-duration: 1.5s;
+  transition-property:border;
 }
+
+
 
 .entertainment__console-radio:focus,
 entertainment__boar-games-radio:focus {

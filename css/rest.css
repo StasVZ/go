@@ -11,10 +11,19 @@
   height: 228px;
 }
 
+.rest__item{
+  transition-duration: 1.5s;
+}
+
+.rest__item:hover{
+  transform: translateZ(10px);
+}
+
 .rest__list {
   display: flex;
   flex-wrap: wrap;
   gap: 40px 20px;
+  perspective: 100px;
 }
 
 

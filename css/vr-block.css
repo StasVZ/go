@@ -46,7 +46,11 @@
   height: 80px;
   background: #6c0287;
   z-index: 1;
+  perspective: 200px;
+  transition-duration: 1.5s;
+  transition-property:background;
 }
+
 
 .vr-block__link:hover,.vr-block__link:focus{
   border-radius: 10px;
@@ -103,18 +107,22 @@ max-width: min-content;
   right: 545px;
   bottom: 150px;
   cursor: pointer;
+  transition-duration: 1.5s;
+  transition-property:stroke,color;
 }
 
 .vr-block__down:hover {
   border-radius: 100%;
-  fill:white;
+  color:white;
+  fill: currentColor;
   stroke-width: 1px;
   stroke: #6c0287;
 }
 
 .vr-block__down:active {
   border-radius: 100%;
-  fill:#cd06ff;
+  color: #cd06ff;
+  fill:currentColor;
   stroke-width: 1px;
   stroke: #fff 
 }
