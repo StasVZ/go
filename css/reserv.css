@@ -3,7 +3,7 @@ fieldset {
 }
 
 .reserv {
-  background: #440f51;
+  background: var(--second-color);
 }
 
 .reserv__halls {

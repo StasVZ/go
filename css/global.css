@@ -22,7 +22,7 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-tap-highlight-color: transparent;
   font-size: 20px;
-  background-color: #1B1A1B;
+  background-color: var(--main-color);
   color: #FFFFFF;
   padding: 0;
 }

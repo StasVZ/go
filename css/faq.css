@@ -15,7 +15,7 @@
 }
 
 .faq-item:nth-of-type(2n){
-  background-color: #440F51;
+  background-color: var(--second-color);
   color:white;
 }
 

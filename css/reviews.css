@@ -32,9 +32,23 @@
 }
 
 .reviews__img {
-  margin-bottom: 1em;
+  border-radius: 50%;
+  width: 280px;
+  height: 280px;
+  margin-bottom: 20px;
 }
 
+.img-maks{
+  background-image:radial-gradient( rgba(196, 196, 196,0), rgba(108, 2, 135,0.8)), url(../img/maks.svg);
+}
+
+.img-oksana{
+  background-image:radial-gradient( rgba(196, 196, 196,0), rgba(108, 2, 135,0.8)), url(../img/oksana.svg);
+}
+
+.img-nikita{
+  background-image:radial-gradient( rgba(196, 196, 196,0), rgba(108, 2, 135,0.8)), url(../img/nikita.svg);
+}
 .reviews__author {
   text-align: center;
 }

@@ -1,3 +1,7 @@
+.rest{
+  padding-bottom:120px;
+}
+
 .rest__title {
   margin: 0 auto;
   margin-bottom: 40px;
@@ -33,7 +37,12 @@
 
 
 .rest__item:nth-child(2) {
+  transform: translateY(70px);
   background-image: url(../img/audio.jpg);
+}
+
+.rest__item:nth-child(2):hover,.rest__item:nth-child(5):hover{
+  transform: translateZ(5px);
 }
 
 .rest__item:nth-child(3){
@@ -45,6 +54,7 @@
 }
 
 .rest__item:nth-child(5) {
+  transform: translateY(70px);
   background-image: url(../img/netflix.jpg);
 }
 
