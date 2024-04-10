@@ -20,6 +20,11 @@
             <path d="M120 32H119V0H120V32Z" fill="#CD06FF" />
             <path d="M120 0V1H69V0H120Z" fill="#CD06FF" />
           </svg>
+          <svg class="page-header__svg svg__none" width="54" height="29" viewBox="0 0 54 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="54" height="5" rx="2" fill="#6C0287" />
+            <rect y="12" width="54" height="5" rx="2" fill="#6C0287" />
+            <rect y="24" width="31" height="5" rx="2" fill="#6C0287" />
+          </svg>
           <nav class="page-header__navigation">
             <ul class="page-header__list">
               <li class="page-header__item">
@@ -42,16 +47,16 @@
           <button class="page-header__button">Заказать звонок</button>
         </div>
       </section>
-
     </header>
   
     <main>
+
       <section class="vr-block">
         <div class="container">
           <div class="vr-block__wrapper">
             <h2 class="vr-block__title">GAME OVER</h2>
             <p class="vr-block__text">Новый формат игр и отдыха</p>
-            <div class="vr-block__reserv">
+            <div class="vr-block__reserve">
               <div class="vr-block__violet" >
                 <p class="violet-text"><span class="violet-number">4</span> Tематических зала</p>
                 <p class="violet-text"><span class="violet-new">NEW</span> Новейшая аппаратура</p>
@@ -67,7 +72,7 @@
             </svg>
           </div>
         </div>
-      </section>
+      </section> 
 
       <section class="rest">
         <div class="container">
@@ -95,27 +100,24 @@
         </div>
       </section>
 
-
-
       <section class="halls" id="hall">
           <div class="container">
             <h2 class="title halls__title">Наши залы</h2>
             <ol class="halls__list">
               <li class="halls__item">
-                <a class="halls__link" href="vibes.html">80's vibes</a>
+                <a class="halls__link" href="halls/vibes.html">80's vibes</a>
               </li>
               <li class="halls__item">
-                <a class="halls__link" href="starwars.html">Star wars</a>
+                <a class="halls__link" href="halls/starwars.html">Star wars</a>
               </li>
               <li class="halls__item">
-                <a class="halls__link" href="wildwest.html">Wild west</a>
+                <a class="halls__link" href="halls/vibes.html">Wild west</a>
               </li>
               <li class="halls__item">
-                <a class="halls__link" href="neon.html">Neon style</a>
+                <a class="halls__link" href="halls/neon.html">Neon style</a>
               </li>
             </ol>
           </div>
-
       </section>
 
       <section class="reserv" id="reserv">
@@ -196,23 +198,23 @@
                     <input class="reserv__date-time" type="text" name="time" value="Время" required>
                   </label>
                 </div>
-                <label class="reserv__date"> 
-                  <p>Имя</p>
+                <label class="reserv__date name"> 
+                  <p class="reserv__text">Имя</p>
                   <input class="reserv__date-input" type="text" name="name" required>
                 </label>
-                <label class="reserv__date"> 
-                  <p>Телефон</p>
+                <label class="reserv__date tel"> 
+                  <p class="reserv__text">Телефон</p>
                   <input class="reserv__date-input" type="number" name="tel" required>
                 </label>
-                  <label class="reserv__date-human">
-                <input class="reserv__date-input" type="text" name="number" required value="Сколько человек">
-                  </label>
-                <label class="reserv__date">
-                  <p>Фамилия</p>
+                <label class="reserv__date-human">
+                <input class="reserv__date-input reserv__date-human" type="text" name="number" required value="Сколько человек">
+                </label>
+                <label class="reserv__date surname">
+                  <p class="reserv__text">Фамилия</p>
                   <input class="reserv__date-input" type="text" name=" surname" required>
                 </label>
-                <label class="reserv__date"> 
-                  <p>Е-mail</p>
+                <label class="reserv__date email"> 
+                  <p class="reserv__text">Е-mail</p>
                   <input class="reserv__date-input" type="email" name=" email" required>
                 </label>
 
@@ -222,25 +224,23 @@
               <button class="reserv__button" type="submit">Забронировать</button>
           </div>
       </section>
-
-
-
+      
       <section class="about" id="about">
-          <div class="container">         
+          <div class="container about__container">         
             <h2 class="title about__title">О нас</h2>
             <img class="about__image" src="img/about.jpg" alt="картинка с видами развлечения" width="600px" height="596px">
             
             <div class="about__wrapper">
               <p class="about__text">Для наших гостей мы создали концептуально новое игровое пространство виртуальной реальности в центральной части города.</p>
               <p class="about__text">Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разпработками со всего мира</p>
-              
+            </div>
+            <div class="about__author-wrapper">
               <p class="about__cite-text ">GAME OVER — <span class="cite-text-two">это место незабываемых впечатлений </span></p>
               <img class="about__photo-author" src="img/foto.svg" alt="фотография Аркадия Абакшина" width="80px" height="80px">      
               <cite class="about__cite-author">Аркадий Абакшин,<br>создатель игровой<br> территории GAME OVER</cite>
-            </div>
+            </div>   
           </div>
       </section>
-
 
       <section id="reviews">
         <div class="reviews__container">
@@ -267,9 +267,8 @@
             <q class="reviews__quote"> Немного подвисала игра в VR очках,а так все норм.Крутое оформление комнаты в стиле звездных войн,попал в атмосферу космоса</q>
           </blockquote>
         </div>
-        
       </section>
-
+      
       <section class="faq">
           <div class="container">          
             <h2 class="title faq__title">Частые вопросы</h2>
@@ -278,35 +277,33 @@
               <li class="faq-item">Могут ли мне вернуть деньги за бронь?</li>
               <li class="faq-item">Какая комната самая популярная?</li>
               <li class="faq-item">Как получить VIP карту?</li>
-              <li class="faq-item">Какая комната самая популярная?</li>
             </ul></div>
       </section>
 
-
     </main  >
-  
+
+
     <footer class="page-footer">
       <div class="container page-footer__container">
         <section class="contacts" id="contacts">
-
           <h2 class="title contacts__title">Контакты</h2>
           <div class="contacts__wrapper">
             <div class="contacts__adress" >          
               <p class="contacts__text">
-                <svg class="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="svg svg-location" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M16 0C10.3772 0 5.6875 4.52938 5.6875 10.3125C5.6875 12.5126 6.34862 14.4745 7.61744 16.3129L15.2108 28.1616C15.5792 28.7376 16.4216 28.7365 16.7892 28.1616L24.4155 16.2726C25.657 14.5175 26.3125 12.4567 26.3125 10.3125C26.3125 4.62619 21.6863 0 16 0ZM16 15C13.4154 15 11.3125 12.8971 11.3125 10.3125C11.3125 7.72794 13.4154 5.625 16 5.625C18.5846 5.625 20.6875 7.72794 20.6875 10.3125C20.6875 12.8971 18.5846 15 16 15Z" fill="#CD06FF" />
                   <path d="M23.329 21.5435L18.6083 28.9239C17.3864 30.829 14.6068 30.8228 13.3907 28.9257L8.66238 21.5454C4.50213 22.5073 1.9375 24.2693 1.9375 26.375C1.9375 30.0289 9.183 32 16 32C22.817 32 30.0625 30.0289 30.0625 26.375C30.0625 24.2678 27.4943 22.5048 23.329 21.5435Z" fill="#CD06FF" />
                 </svg>
                 <a class="contacts__link address" href="#">г.Москва<br> ул.Аквамарина,16</a>
               </p>
-              <p>
+              <p class="contacts__text">
                 <svg class="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M26.6667 14.6652H29.3333C29.3333 7.82517 24.1693 2.6665 17.32 2.6665V5.33317C22.736 5.33317 26.6667 9.25717 26.6667 14.6652Z" fill="#CD06FF" />
                   <path d="M17.3333 10.6667C20.1373 10.6667 21.3333 11.8627 21.3333 14.6667H24C24 10.3667 21.6333 7.99999 17.3333 7.99999V10.6667ZM21.896 17.924C21.6398 17.6911 21.3031 17.5669 20.9571 17.5776C20.611 17.5883 20.2827 17.7331 20.0413 17.9813L16.8507 21.2627C16.0827 21.116 14.5387 20.6347 12.9493 19.0493C11.36 17.4587 10.8787 15.9107 10.736 15.148L14.0147 11.956C14.2632 11.7148 14.4082 11.3864 14.4189 11.0403C14.4296 10.6941 14.3052 10.3574 14.072 10.1013L9.14534 4.68399C8.91207 4.42714 8.58785 4.27133 8.24155 4.24967C7.89525 4.22801 7.55414 4.3422 7.29068 4.56799L4.39734 7.04933C4.16682 7.28068 4.02924 7.58859 4.01068 7.91466C3.99068 8.24799 3.60934 16.144 9.73201 22.2693C15.0733 27.6093 21.764 28 23.6067 28C23.876 28 24.0413 27.992 24.0853 27.9893C24.4114 27.9711 24.7191 27.8329 24.9493 27.6013L27.4293 24.7067C27.6553 24.4434 27.7697 24.1024 27.7483 23.7561C27.7269 23.4098 27.5713 23.0855 27.3147 22.852L21.896 17.924Z" fill="#CD06FF" />
                 </svg>
                 <a class="contacts__link phone " href="+79509302893">8(950)930-28-93</a>
               </p>
-              <p>
+              <p class="contacts__text">
                 <svg class="svg" width="32" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M0.667993 1.94725C5.05987 5.66669 12.7662 12.2103 15.0312 14.2506C15.3353 14.526 15.6614 14.666 16 14.666C16.3379 14.666 16.6634 14.5273 16.9668 14.2533C19.2337 12.2109 26.9401 5.66669 31.332 1.94725C31.6055 1.71612 31.6472 1.30987 31.4258 1.02731C30.914 0.374375 30.151 0 29.3333 0H2.66668C1.84899 0 1.08593 0.374375 0.574244 1.02738C0.352869 1.30988 0.394556 1.71612 0.667993 1.94725Z" fill="#CD06FF" />
                   <path d="M31.6133 3.96303C31.377 3.85303 31.099 3.89141 30.9024 4.05941C26.0319 8.18828 19.8158 13.4807 17.86 15.243C16.7623 16.2338 15.2389 16.2338 14.1386 15.2417C12.054 13.3634 5.0735 7.42916 1.09763 4.05934C0.899688 3.89134 0.621063 3.85428 0.386687 3.96297C0.151062 4.07241 0 4.30809 0 4.56784V21.3335C0 22.8042 1.19594 24.0002 2.66669 24.0002H29.3334C30.8041 24.0002 32 22.8042 32 21.3335V4.56784C32 4.30809 31.8489 4.07178 31.6133 3.96303Z" fill="#CD06FF" />
@@ -345,12 +342,9 @@
                   </a>
                 </li>
               </ul>
-            </div>
-      
+            </div>     
             <img class="footer__img" src="img/map.jpg" alt=" Карта проезда" width="680px" height="274px">
           </div>
-
-
         </section>
 
         <section class="layout-design">
@@ -362,7 +356,7 @@
         </section>
       </div>
     </footer>
-  
-  
+
+
   </body>
 </html>

@@ -1,3 +1,5 @@
+
+
 fieldset {
   border: none;
 }
@@ -20,7 +22,11 @@ fieldset {
 }
 
 .reserv__date {
-  font-size: 16px;
+  font-size: 18px;
+}
+
+.reserv__text{
+  font-size: 14px;
 }
 
 .reserv__title {
@@ -37,6 +43,7 @@ fieldset {
 }
 
 .entertainment {
+  padding: 0;
   display: flex;
   justify-content: space-evenly;
 }
@@ -109,8 +116,6 @@ color: #fff;
   background: #eadeed;
 }
 
-
-
 .reserv__dates {
   display: flex;
   flex-wrap: wrap;
@@ -165,7 +170,6 @@ color: #fff;
   width: 134px;
   height: 52px;
   background: #fff;
-  
 }
 
 .reserv__date-input {
@@ -217,3 +221,290 @@ entertainment__boar-games-radio:focus {
 .reserv__date-human {
   padding-top: 1em;
 }
+
+
+@media (max-width:1024px){
+  .reserv__fieldset:last-child{
+    margin-bottom: 50px;
+  }
+
+  .reserv__title {
+    margin-bottom: 25px;
+  }
+
+  .reserv__subtitle {
+    margin-bottom: 25px;
+  }
+
+  .reserv__button {
+    font-size: 18px;
+    line-height: 133%;
+    border-radius: 10px;
+    width: 254px;
+    height: 50px;
+    margin-right: 0;
+  }
+  
+  .reserv__button:hover{
+    width: 254px;
+    height: 50px;
+  }
+  .reserv__button:focus{
+    width: 254px;
+    height: 50px;
+  }
+  .reserv__button:active{
+    width: 254px;
+    height: 50px;
+  }
+
+  .reserv__hall {
+    border-radius: 6px;
+    width: 180px;
+    height: 44px;
+    font-size: 20px;  
+    line-height: 120%;
+    padding: 10px 20px;
+  }
+  
+  .reserv__hall:hover{
+    border-radius: 6px;
+    width: 180px;
+    height: 44px;
+  }
+  
+  .reserv__hall:focus{
+    border-radius: 6px;
+    width: 180px;
+    height: 44px;
+  }
+  .reserv__hall:active{
+    border-radius: 6px;
+    width: 180px;
+    height: 44px;
+  }
+
+  .reserv__date-input {
+    width: 252px;
+    height: 52px;
+  }
+
+  .reserv__date-input:focus , reserv__date-time:focus{
+    width: 252px;
+    height: 52px;
+  }
+
+  .reserv__date-human{
+    width: 300px;
+  }
+
+  .reserv__dates{
+    display: grid;
+    grid-template-columns: 300px 252px 252px;
+    gap:14px 40px;
+    grid-template-areas: 
+    "date name tel"
+    "human surname email";
+  }
+
+  .reserv__wrapper{
+    grid-area: date;
+  }
+  .name{
+    grid-area: name;
+  }
+  .tel{
+    grid-area: tel;
+  }
+  .reserv__date-human{
+    grid-area: human;
+  }
+  .surname{
+    grid-area: surname;
+  }
+  .email{
+    grid-area: email;
+  }
+}
+
+@media (max-width:768px){
+  .reserv__title {
+    margin-bottom: 40px;
+  }
+
+  .reserv__button {
+    font-size: 22px;
+    line-height: 127%;
+    border-radius: 10px;
+    width: 300px;
+    height: 60px;
+  }
+
+  .reserv__button:hover{
+    width: 300px;
+    height: 60px;
+  }
+  .reserv__button:focus{
+    width: 300px;
+    height: 60px;
+  }
+  .reserv__button:active{
+    width: 300px;
+    height: 60px;
+  }
+
+  .reserv__fieldset:not(:last-child) {
+    margin-bottom: 50px;
+  }
+
+  .reserv__hall {
+    width: 150px;
+    height: 38px;
+    font-size: 16px;  
+    line-height: 125%;
+  }
+  
+  .reserv__hall:hover{
+    width: 150px;
+    height: 38px;
+  }
+  
+  .reserv__hall:focus{
+    width: 150px;
+    height: 38px;
+  }
+  .reserv__hall:active{
+    width: 150px;
+    height: 38px;
+  }
+
+  .entertainment {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 32px;
+  }
+
+  .reserv__dates{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    gap:14px 100px;
+    grid-template-areas: 
+    "date human"
+    "name tel"
+    "surname email"
+  }
+
+  .reserv__wrapper{
+    width: 290px;
+  }
+
+  .reserv__date-input {
+    width: 290px;
+  }
+
+  .reserv__date-input:focus , reserv__date-time:focus{
+    width: 290px;
+  }
+
+  .reserv__wrapper{
+    width: 290px;
+    gap: 20px;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width:320px){
+  .reserv__dates{
+    display: grid;
+    grid-template-columns: 300px;
+    gap:15px;
+    grid-template-areas:
+    "date"
+    "human"
+    "name"
+    "surname"
+    "tel"
+    "email"
+  }
+
+  fieldset{
+    padding: 0;
+  }
+
+  .reserv__subtitle {
+    font-size: 14px;
+    line-height: 129%;
+    margin-bottom: 15px;
+  }
+
+  .entertainment__title {
+    font-size: 14px;
+    line-height: 129%;
+    margin-bottom: 15px;
+  }
+
+  .reserv__button {
+    font-size: 18px;
+    line-height: 144%;
+    border-radius: 4px;
+    width: 280px;
+    height: 60px;
+  }
+
+  .reserv__button:hover{
+    width: 280px;
+    height: 60px;
+  }
+  .reserv__button:focus{
+    width: 280px;
+    height: 60px;
+  }
+  .reserv__button:active{
+    width: 280px;
+    height: 60px;
+  }
+
+  .reserv__halls {
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px ;
+  }
+
+  .reserv__hall {
+    padding: 0;
+    width: 130px;
+    height: 30px;
+    font-size: 14px;  
+    line-height: 129%;
+  }
+
+  .reserv__hall:hover{
+    width: 130px;
+    height: 30px;
+  }
+  
+  .reserv__hall:focus{
+    width: 130px;
+    height: 30px;
+  }
+  .reserv__hall:active{
+    width: 130px;
+    height: 30px;
+  }
+
+  .reserv__fieldset:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .entertainment__console,
+.entertainment__boar-games,
+.entertainment__additionally{
+font-size: 16px;
+}
+
+.entertainment__fieldset{
+  width: 280px;
+}
+}
+
