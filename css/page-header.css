@@ -74,6 +74,8 @@
   .svg__none{
     display: none;
   }
+
+  
 }
 
 @media (max-width:768px){
@@ -84,7 +86,25 @@
   .svg__none{
     order: -1;
   }
+  .page-header__svg{
+    color:  #6c0287;;
+  }
+  .page-header__svg:hover{
+    color:#cd06ff; 
+    fill: currentColor;
+  }
+
+  .page-header__svg:active{
+    color:#840aa3; 
+    fill: currentColor;
+  }
 }
+  .page-header__svg:focus{
+    border: 1px solid #cd06ff;
+    width: 58px;
+    height: 58px;
+  }
+
 
 @media (max-width:320px){
   .page-header__button{
