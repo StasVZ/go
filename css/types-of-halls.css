@@ -12,6 +12,7 @@
 }
 
 .hall-description__svg{
+  top:5px;
   position: absolute;
   left: 0;
 }
@@ -186,9 +187,6 @@
     line-height: 175%;
   }
 
-  .hall-description__svg{
-    top:5px;
-  }
   .hall-description__text{
     width: 688px;
     font-size: 16px;
@@ -253,6 +251,7 @@
   }
 
   .hall-description__back{
+    margin-left: 20px;
     padding-left: 25px;
     font-size: 12px;
     line-height: 133%;
@@ -261,7 +260,7 @@
 
   .hall-description__svg{
     width: 17px;
-    top:5px;
+    top:3px;
   }
 
   .hall-description__text{

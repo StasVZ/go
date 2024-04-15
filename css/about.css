@@ -54,6 +54,7 @@ grid-area: title;
 }
 
 .about__cite-author {
+  font-style: normal;
   display: inline-block;
   font-weight: 400;
   font-size: 20px;
@@ -84,7 +85,7 @@ grid-area: title;
   font-size: 20px;
   line-height: 140%;
   color: #fff;
-  margin-bottom: 60px;
+  margin-bottom: 1em;
 }
 
 
@@ -129,7 +130,7 @@ grid-area: title;
   height: 70px;
 }
 
-.about__cite-author {
+.about__cite-author{
   font-size: 18px;
   line-height: 144%;
 }
@@ -236,7 +237,7 @@ grid-area: title;
     font-size: 18px;
     line-height: 144%;
     padding-left:20px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
     width: 265px;
   }
 

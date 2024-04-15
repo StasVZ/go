@@ -4,6 +4,9 @@ fieldset {
   border: none;
 }
 
+label{
+  width: max-content;
+}
 .reserv {
   background: var(--second-color);
 }

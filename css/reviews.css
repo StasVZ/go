@@ -14,7 +14,7 @@
 
 .reviews__blockquote {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .reviews__photo {
@@ -28,6 +28,7 @@
 .reviews__quote {
   display: block;
   padding-top: 50px;
+  padding-left: 20px;
   width: 680px;
 }
 
@@ -68,6 +69,11 @@
     margin-bottom: 40px;
   }
 
+  .reviews__blockquote {
+    display: flex;
+    justify-content: space-around;
+  }
+
   .reviews__img {
     border-radius: 50%;
     width: 172px;
@@ -80,6 +86,7 @@
     display: block;
     padding-top: 50px;
     width: 515px;
+    padding-left: 0;
   }
 }
 

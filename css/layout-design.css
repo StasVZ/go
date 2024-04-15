@@ -5,6 +5,11 @@
   font-size: 14px;
 }
 
+@media (max-width:1024px){
+  .layout-design {
+    padding-top: 62px;
+}
+}
 
 @media (max-width:768px){
   .layout-design {

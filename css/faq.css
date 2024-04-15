@@ -31,6 +31,14 @@
   background-size: 46px 46px;
 }
 
+.faq-item:nth-of-type(2n):active {
+  background-image: url(../img/close.svg);
+  background-repeat: no-repeat;
+  background-position: right 50px center;
+  background-size: 46px 46px;
+}
+
+
 
 
 .faq-item:nth-of-type(2n+1) {
@@ -42,6 +50,13 @@
 
 .faq-item:nth-of-type(2n+1):hover {
   background-image: url(../img/open-purple-hover.svg);
+  background-repeat: no-repeat;
+  background-position: right 50px center;
+  background-size: 46px 46px;
+}
+
+.faq-item:nth-of-type(2n+1):active {
+  background-image: url(../img/close-purple.svg);
   background-repeat: no-repeat;
   background-position: right 50px center;
   background-size: 46px 46px;
@@ -79,6 +94,10 @@
 
   .faq-item:nth-of-type(2n):hover {
     background-image: url(../img/open-purple-hover.svg);
+  }
+
+  .faq-item:last-child{
+    display: none;
   }
 }
 
